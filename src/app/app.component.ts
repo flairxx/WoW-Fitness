@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MenuItem } from 'primeng/components/common/menuitem';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'WoW-Fitness Mfcka';
+  title = 'WoW-Fitness';
+
+  items: MenuItem[];
+
+    constructor() {}
+
+    ngOnInit() {
+      
+    }
+    
+   
 }

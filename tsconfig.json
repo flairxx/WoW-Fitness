@@ -22,5 +22,10 @@
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
-  }
+  },
+  "dependencies": {
+    //...
+    "primeng": "^7.0.0",
+    "primeicons": "^1.0.0"
+  },
 }
