@@ -1,5 +1,23 @@
-.grid5 {
+.parallax2 {
+  /* The image used */
+  background-image: url("../../assets/classic-key-art-3840.png");
+
+  /* Set a specific height */
+  min-height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.grid1 {
     display: grid;
     grid-template-columns: 500px 500px 500px;
     grid-template-rows: 300px 300px;
+    color: darkgray
   }
+
+  
