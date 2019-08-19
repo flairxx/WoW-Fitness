@@ -83,7 +83,20 @@
     text-align: center;
     padding: 32px;
   }
+
+  .middle {
+    text-align: center;
+    padding: 32px;
+  }
   
+  footer {
+    position: center;
+    padding: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
   .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
