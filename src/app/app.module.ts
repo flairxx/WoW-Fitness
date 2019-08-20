@@ -7,12 +7,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ShopComponent } from './shop/shop.component';
 import { HomeComponent } from './home/home.component';
+import { DataComponent } from './data/data.component';
+import { KontaktComponent } from './kontakt/kontakt.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShopComponent,
-    HomeComponent
+    HomeComponent,
+    DataComponent,
+    KontaktComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +25,9 @@ import { HomeComponent } from './home/home.component';
     RouterModule.forRoot([
       {path: '', redirectTo: 'home', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
-      {path: 'shop', component: ShopComponent}
+      {path: 'shop', component: ShopComponent},
+      {path: 'Datenschutz', component: DataComponent},
+      {path: 'Kontakt', component: KontaktComponent}
     ])
   ],
   
