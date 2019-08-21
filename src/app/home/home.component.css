@@ -62,21 +62,6 @@
     
      
     
-    /* Modal Content */
-    
-    .modal-content {
-    
-      background-color: #222222;
-    
-      margin: auto;
-    
-      padding: 20px;
-    
-      border: 1px solid #888;
-    
-      width: 80%;
-    
-    }
     
      
     
@@ -94,7 +79,7 @@
     
     }
     
-     
+    body {background-color: rgb(39, 39, 39); color: rgb(255, 255, 255) } 
     
     .close:hover,
     
@@ -108,5 +93,17 @@
     
     }
     
-    
+    .text {
+      background-color: rgb(23, 27, 43);
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
   
+    footer {
+      position: center;
+      padding: 50px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
