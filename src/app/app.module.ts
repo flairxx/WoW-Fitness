@@ -8,15 +8,15 @@ import { AppComponent } from './app.component';
 import { ShopComponent } from './shop/shop.component';
 import { HomeComponent } from './home/home.component';
 import { DataComponent } from './data/data.component';
-import { KontaktComponent } from './kontakt/kontakt.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ShopComponent,
     HomeComponent,
-    DataComponent,
-    KontaktComponent
+    DataComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -26,8 +26,7 @@ import { KontaktComponent } from './kontakt/kontakt.component';
       {path: '', redirectTo: 'home', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
       {path: 'shop', component: ShopComponent},
-      {path: 'Datenschutz', component: DataComponent},
-      {path: 'Kontakt', component: KontaktComponent}
+      {path: 'Datenschutz', component: DataComponent}
     ])
   ],
   

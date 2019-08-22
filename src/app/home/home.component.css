@@ -1,6 +1,13 @@
+
+
+#sub-header ul li:hover{ background-color: #000;}
+#sub-header ul li:hover a{ color: #fff; }
+#sub-header ul li.active{ background-color: #000; }
+#sub-header ul li.active a{ color: #fff; }
+
 .parallax {
     /* The image used */
-    background-image: url("../../assets/home_background_1.png");
+    background-image: url("../../assets/193003.jpg");
   
     /* Set a specific height */
     min-height: 500px; 
@@ -18,7 +25,7 @@
     background-image: url("../../assets/classic-key-art-3840.png");
   
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 600px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -30,68 +37,10 @@
 
     body {font-family: Arial, Helvetica, sans-serif;}
     
-     
-    
-    /* The Modal (background) */
-    
-    .modal {
-    
-      display: none; /* Hidden by default */
-    
-      position: fixed; /* Stay in place */
-    
-      z-index: 1; /* Sit on top */
-    
-      padding-top: 100px; /* Location of the box */
-    
-      left: 0;
-    
-      top: 0;
-    
-      width: 100%; /* Full width */
-    
-      height: 100%; /* Full height */
-    
-      overflow: auto; /* Enable scroll if needed */
-    
-      background-color: rgb(0,0,0); /* Fallback color */
-    
-      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    
-    }
-    
-     
-    
-    
-     
-    
-    /* The Close Button */
-    
-    .close {
-    
-      color: #aaaaaa;
-    
-      float: right;
-    
-      font-size: 28px;
-    
-      font-weight: bold;
-    
-    }
-    
+ 
     body {background-color: rgb(39, 40, 44); color: rgb(255, 255, 255) } 
     
-    .close:hover,
     
-    .close:focus {
-    
-      color: #000;
-    
-      text-decoration: none;
-    
-      cursor: pointer;
-    
-    }
     
     .text {
       background-color: rgb(23, 27, 43);
@@ -102,8 +51,39 @@
   
     footer {
       position: center;
-      padding: 50px;
+      padding: 20px;
       bottom: 0;
       left: 0;
       right: 0;
     }
+
+    .body { margin-left:  30px; }
+    .body { margin-right: 30px; }
+
+    p {
+      font-family: inherit;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-right: 600px;
+      margin-left: 600px;
+    }
+
+    h1 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-right: 0px;
+      margin-left: 425px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-right: 600px;
+      margin-left: 600px;
+    }
+
+    .center { display: flex;
+      justify-content: center;
+                   }
+
+    
