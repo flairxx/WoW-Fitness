@@ -28,6 +28,7 @@
     min-height: 600px; 
   
     /* Create the parallax scrolling effect */
+    position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,8 +83,13 @@
       margin-left: 600px;
     }
 
-    .center { display: flex;
-      justify-content: center;
-                   }
+  
+
+    .center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%)
+    }
 
     
